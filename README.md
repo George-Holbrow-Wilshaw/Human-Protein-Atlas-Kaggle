@@ -14,6 +14,7 @@ My pipeline is planned as follows:
 5) Relate ground truth predictions back to original HPA masks
 6) Post-processing for submission (RLE encode masks etc). 
 
+This project is proving to be difficult for a number of reasons, not least my lack of an NVIDA GPU means I have to run everything on Google Colab and Kaggle, which makes making changes to PCL model codebase very slow to test.
 
 The PCL model is represented by the below graph:
 
